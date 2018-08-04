@@ -68,4 +68,4 @@ if __name__ == "__main__":
 
 #     print(edges)
     print(dijkstra(edges, "Avoly", "Kothamangalam"))
-    rint(dijkstra(edges, "Kothamangalam", "Avoly"))
+    print(dijkstra(edges, "Kothamangalam", "Avoly"))
