@@ -1,9 +1,8 @@
 import datetime
 # convert minute to seonds
-# then convert seconds to time
-# s=str(datetime.timedelta(seconds=66666))
-# then append current time and calculated time to list
-timeList = ['14:00:00', '0:00:15', '9:30:56']
+# then convert seconds to time using s=str(datetime.timedelta(seconds=66666))
+# then append current time and calculated time ie s to list
+timeList = ['14:00:05','9:30:56']
 sum = datetime.timedelta()
 for i in timeList:
     (h, m, s) = i.split(':')
